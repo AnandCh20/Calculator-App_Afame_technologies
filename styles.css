@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: rgb(0, 0, 0);
+  }
+
+h1{
+    padding: 0;
+    margin: 0;
+    width: 25rem;
+    background-color: sandybrown;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+.display {
+    padding: 0;
+    margin: 0;
+    width: 25rem;
+    /* border: 1px white solid; */
+    /* height: 10rem; */
+
+  }
+
+p{
+    color: azure;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .display p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+  }  
+/* -------------------------- */
+
+.lower{
+    display: flex;
+    width: 25rem;
+    height: 30rem; 
+}
+
+.operation1 {
+  /* height: 25rem; */
+  display: grid;
+  grid-template-rows: repeat(5, 1fr); /* Update rows to have consistent height */
+  /* border: 1px white solid;   */
+}
+
+.operation1 button {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: darkorange;
+}
+
+.operation{
+  /* border: 1px white solid; */
+  width: 20rem;
+  /* height: 25rem; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}  
+
+.operation button{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: darkgrey;
+}  
+  
